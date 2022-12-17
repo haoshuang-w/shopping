@@ -1,0 +1,150 @@
+header {
+    padding-top: 14px;
+    height: 84px;
+    border-bottom: 2px solid #b1191a;
+}
+
+.main .hd {
+    margin-top: 20px;
+    padding: 0 11px;
+    height: 42px;
+    line-height: 42px;
+    background-color: #ececec;
+    color: #333;
+}
+
+.main .hd h3 {
+    float: left;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.main .have_account {
+    float: right;
+    font-size: 14px;
+}
+
+.main .have_account a {
+    display: inline-block;
+    font-size: 14px;
+    color: #c81623;
+}
+
+.main .have_account a:hover {
+    text-decoration: underline;
+    color: rgba(184, 46, 45);
+}
+
+.main .bd form>div {
+    margin-top: 20px;
+}
+
+.bd {
+    height: 480px;
+    border-bottom: 1px solid #999;
+}
+
+.reg_form {
+    margin: auto;
+    width: 535px;
+}
+
+input {
+    width: 241px;
+    height: 37px;
+    border: 1px solid #999;
+}
+
+input:focus {
+    /* 获得焦点，可以用伪元素选择，不一定非用js */
+    border-left: 3px solid #999;
+}
+
+label {
+    display: inline-block;
+    width: 90px;
+    font-size: 14px;
+    color: #4d4d4d;
+    text-align: right;
+}
+
+.hint_words {
+    font-size: 12px;
+    color: #df3033;
+}
+
+.hint_words::before {
+    content: '\e8e7';
+    font-family: 'iconfont';
+}
+
+.safety_degree {
+    margin-top: 10px;
+    margin-left: 181px;
+    font-size: 12px;
+    color: #bebebe;
+}
+
+.safety_degree span {
+    display: inline-block;
+    margin-left: 1px;
+    width: 34px;
+    height: 13px;
+    line-height: 13px;
+    color: #fff;
+    text-align: center;
+}
+
+.safety_degree span:first-child {
+    margin-left: 9px;
+    background-color: #de1111;
+}
+
+.safety_degree span:nth-child(2) {
+    background-color: #40b83f;
+}
+
+.safety_degree span:last-child {
+    background-color: #f79100;
+}
+
+.agreement {
+    margin-top: 40px !important;
+    margin-left: 100px;
+}
+
+.agreement label {
+    width: auto;
+    font-size: 12px;
+}
+
+.agreement input {
+    width: 18px;
+    height: 18px;
+    vertical-align: middle;
+}
+
+.agreement label a {
+    display: inline;
+    font-size: 12px;
+    color: #1ba1e6;
+}
+
+.submit {
+    margin-top: 52px !important;
+    margin-left: 110px;
+}
+
+input[type='submit'] {
+    width: 202px;
+    height: 34px;
+    border: none;
+    background-color: #c81623;
+    color: #fff;
+}
+
+footer {
+    margin-top: 23px;
+    height: auto;
+    background-color: #fff;
+}

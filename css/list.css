@@ -1,0 +1,174 @@
+.separation_line {
+    /* logo旁分割线 */
+    display: block;
+    float: left;
+    margin-left: -30px;
+    margin-top: 10px;
+    width: 0;
+    height: 32px;
+    border: 1px solid #b1191a;
+}
+
+.seckill {
+    /* 秒杀图片 */
+    position: absolute;
+    right: -45px;
+    top: 13px;
+}
+
+/* 导航栏 */
+nav {
+    margin-top: 23px;
+    height: 47px;
+    border-bottom: 2px solid #b1191a;
+}
+
+nav ul {
+    height: 100%;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    padding: 13px 23px;
+    font-size: 14px;
+}
+
+nav ul li:nth-child(-n+3) a {
+    /* 选择前3个选法忘记 */
+    padding: 12px 28px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000
+}
+
+nav ul li a:hover {
+    color: #b1191a;
+}
+
+/* 主体部分banner图片 */
+.main .hd {
+    height: 120px;
+}
+
+/* 商品列表 */
+.main .bd ul {
+    width: 1213px;
+}
+
+.main .bd ul li {
+    float: left;
+    margin-top: 25px;
+    margin-right: 13px;
+    width: 290.2px;
+    height: 461px;
+}
+
+.info {
+    /* 商品图片+描述的盒子 */
+    padding: 22px 10px 0 12px;
+    /* 提前加好边框，避免本来没有边框，鼠标移动上去加上边框出现抖动 */
+    border: 1px solid transparent;
+}
+
+.info:hover {
+    border: 1px solid #e12228;
+    border-bottom-color: transparent;
+}
+
+.goods_img {
+    /* 商品图片 */
+    margin-bottom: 26px;
+    text-align: center;
+}
+
+.info p {
+    /* 商品描述 */
+    margin-bottom: 15px;
+    font-family: 'Simson';
+    font-size: 14px;
+}
+
+.price .original {
+    /* 原价样式 */
+    font-size: 22px;
+    color: #e60012;
+}
+
+.price .current {
+    /* 现价样式 */
+    margin-left: 5px;
+    font-size: 14px;
+    text-decoration: line-through;
+    color: #a4a4a4;
+}
+
+.price .original::before,
+.price .current::before {
+    content: '¥';
+    font-size: 14px;
+}
+
+/* 库存 */
+.inventory {
+    padding-bottom: 6px;
+}
+
+.inventory span {
+    font-size: 14px;
+}
+
+.inventory span em {
+    font-size: 16px;
+}
+
+.progress_bar {
+    display: inline-block;
+    width: 134px;
+    height: 12px;
+    border: 1px solid red;
+    border-radius: 6px;
+}
+
+.progress_bar::before {
+    display: block;
+    width: 30px;
+    height: 100%;
+    background-color: red;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    content: '';
+}
+
+/* 抢购按钮 */
+.purchase {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    background-color: #b1191a;
+    font-family: 'Simson';
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+/* 右侧工具按钮 */
+.home_tool_bar {
+    position: fixed;
+    top: 550px;
+    left: 50%;
+    margin-left: 600px;
+    background-color: pink;
+    z-index: 99;
+}
+
+.home_tool_bar ul li a {
+    width: 69px;
+    height: 68px;
+    line-height: 68px;
+    background-color: #b1191a;
+    text-align: center;
+    color: #fff;
+}

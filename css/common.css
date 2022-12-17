@@ -1,0 +1,341 @@
+@font-face {
+    font-family: "iconfont";
+    /* Project id 3802301 */
+    src: url('/iconfont.woff2?t=1669863466406') format('woff2'),
+        url('../iconfont.woff?t=1669863466406') format('woff'),
+        url('../iconfont.ttf?t=1669863466406') format('truetype');
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.w {
+    margin: auto;
+    width: 1200px;
+}
+
+.red_text {
+    color: #ed282e;
+}
+
+/* 快捷导航栏部分 */
+.shortcut {
+    margin-bottom: 27px;
+    height: 31px;
+    line-height: 31px;
+    background-color: #f1f1f1;
+    font-size: 12px;
+    color: #666666;
+}
+
+.shortcut a {
+    display: inline-block;
+    font-size: 12px;
+    color: #666666;
+}
+
+.shortcut a:nth-of-type(2) {
+    /* “免费注册”链接 */
+    margin-left: 12px;
+    color: #c81623;
+}
+
+.shortcut ul {
+    float: right;
+}
+
+.shortcut ul li {
+    float: left;
+}
+
+.shortcut ul li a {
+    position: relative;
+    padding: 0 15px;
+}
+
+.shortcut ul li:nth-child(2n) {
+    margin-top: 9px;
+    height: 13px;
+    border: .5px solid #666;
+}
+
+.shortcut ul li:nth-child(2) a::after,
+/* 选择出后3个需要注意，当时没想出来 */
+.shortcut ul li:nth-child(n+4) a::after {
+    /* 列表添加下箭头 */
+    position: absolute;
+    right: 3px;
+    font-family: 'iconfont';
+    content: '\eb8b';
+}
+
+/* header部分 */
+header {
+    position: relative;
+}
+
+.logo {
+    float: left;
+    position: relative;
+    height: 56px;
+    background: url(../images/icons.png) no-repeat -372px -13px;
+}
+
+.logo h1 {
+    float: left;
+}
+
+.logo a {
+    display: block;
+    width: 219px;
+    height: 56px;
+    font-size: 0;
+}
+
+.search {
+    float: left;
+    margin-left: 127px;
+    width: 539px;
+    height: 33px;
+    border: 2px solid #b1191a;
+}
+
+.search input {
+    float: left;
+    padding: 10px;
+    width: 85%;
+    height: 100%;
+}
+
+.search button {
+    float: left;
+    width: 15%;
+    height: 100%;
+    background-color: #b1191a;
+    color: #fff;
+    font-size: 16px;
+}
+
+.hotwords {
+    position: absolute;
+    left: 29%;
+    bottom: 0;
+}
+
+.hotwords li {
+    float: left;
+    padding: 0 11px;
+}
+
+.hotwords li a {
+    color: #666;
+    font-size: 12px;
+}
+
+.hotwords li a:hover {
+    color: #b1191a;
+}
+
+.cart {
+    float: right;
+    position: relative;
+    padding-left: 17px;
+    width: 138px;
+    height: 36px;
+    border: 1px solid #dfdfdf;
+    background-color: #f7f7f7;
+    font-size: 13px;
+    color: #666;
+    line-height: 36px;
+    cursor: pointer;
+}
+
+.cart::before {
+    margin-right: 6px;
+    content: '\e64c';
+    font-family: 'iconfont';
+    color: #d95252;
+}
+
+.count {
+    position: absolute;
+    top: -5px;
+    /* 最好用左定位，如果用right当内部文字过长会往左侧增加宽度 */
+    left: 105px;
+    padding: 0 5px;
+    height: 15px;
+    line-height: 15px;
+    background-color: #e60012;
+    color: #fff;
+    border-radius: 12px 12px 12px 0;
+}
+
+.cart::after {
+    content: '\eb8a';
+    font-family: 'iconfont';
+}
+
+/* 顶部导航栏部分 */
+nav {
+    margin-top: 24px;
+    height: 46px;
+    border-bottom: 2px solid #b1191a;
+}
+
+.dropdown {
+    float: left;
+    width: 210px;
+    background-color: #c81623;
+}
+
+.dropdown dt {
+    height: 46px;
+    background-color: #b1191a;
+    line-height: 47px;
+    text-align: center;
+    color: #fff;
+}
+
+.dropdown dd {
+    height: 466px;
+}
+
+.dropdown a {
+    /* 侧边导航栏文字链接样式 */
+    display: block;
+    margin-left: 1px;
+    padding: 0 12px 0 10px;
+    height: 31px;
+    line-height: 31px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.dropdown a:hover {
+    color: #c81623;
+    background-color: #fff;
+}
+
+.dropdown a::after {
+    /* 文字右侧小箭头标签 */
+    float: right;
+    font-family: "iconfont";
+    content: '\eb8a';
+}
+
+.navitems {
+    float: left;
+}
+
+.navitems li {
+    float: left;
+    padding: 0 26px;
+    height: 46px;
+    line-height: 46px;
+}
+
+footer {
+    margin-top: 36px;
+    height: 418px;
+    background-color: #f5f5f5;
+}
+
+/* 服务模块 */
+.mod_service {
+    padding: 30px 0;
+    height: 110px;
+    border-bottom: 1px solid #ededed;
+}
+
+footer .mod_service li {
+    float: left;
+    padding: 0 35px;
+    width: 20%;
+    height: 50px;
+}
+
+footer .mod_service li h5 {
+    float: left;
+    margin-right: 7px;
+    width: 49px;
+    height: 49px;
+    border-radius: 50%;
+}
+
+footer .mod_service li h4 {
+    margin: 7px 0;
+    font-size: 14px;
+    color: #333;
+}
+
+.mod_service p {
+    font-size: 12px;
+    color: #666;
+}
+
+.mod_help {
+    padding: 21px 60px 0 51px;
+    height: 188px;
+    border-bottom: 1px solid #ededed;
+}
+
+.mod_help dl {
+    float: left;
+    width: 17.5%;
+}
+
+.mod_help dl:last-child {
+    width: 12%;
+    text-align: center;
+}
+
+.mod_help dl dt {
+    margin-bottom: 13px;
+    color: #5a5a5a;
+}
+
+.mod_help dl dd a {
+    font-size: 12px;
+    color: #666;
+}
+
+.mod_help dl dd a:hover {
+    color: #b1191a;
+}
+
+/* 版权部分 */
+.mod_copyright ul {
+    margin: 20px auto 16px auto;
+    width: 1011px;
+}
+
+.mod_copyright ul li {
+    float: left;
+    padding: 0 15px;
+}
+
+.mod_copyright ul li:nth-child(2n) {
+    padding: 0;
+    height: 13px;
+    border: .5px solid #999;
+}
+
+.mod_copyright ul li a {
+    display: block;
+    font-size: 12px;
+}
+
+.mod_copyright ul li a:hover {
+    color: #b1191a;
+}
+
+.mod_copyright p {
+    font-size: 12px;
+    text-align: center;
+    color: #666;
+}

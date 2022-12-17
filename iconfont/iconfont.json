@@ -1,0 +1,163 @@
+{
+  "id": "3802301",
+  "name": "shopping",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1727521",
+      "name": "304错误、关闭、取消-圆框",
+      "font_class": "cuowuguanbiquxiao-yuankuang",
+      "unicode": "e8e7",
+      "unicode_decimal": 59623
+    },
+    {
+      "icon_id": "1257704",
+      "name": "刷新",
+      "font_class": "shuaxin",
+      "unicode": "e61a",
+      "unicode_decimal": 58906
+    },
+    {
+      "icon_id": "255809",
+      "name": "帮助中心",
+      "font_class": "bangzhuzhongxin",
+      "unicode": "e683",
+      "unicode_decimal": 59011
+    },
+    {
+      "icon_id": "637796",
+      "name": "特色服务",
+      "font_class": "tesefuwu",
+      "unicode": "e628",
+      "unicode_decimal": 58920
+    },
+    {
+      "icon_id": "721185",
+      "name": "无忧售后",
+      "font_class": "wuyoushouhou",
+      "unicode": "e699",
+      "unicode_decimal": 59033
+    },
+    {
+      "icon_id": "838429",
+      "name": "极速物流",
+      "font_class": "jisuwuliu",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    },
+    {
+      "icon_id": "1191707",
+      "name": "正品保障2",
+      "font_class": "zhengpinbaozhang2",
+      "unicode": "e722",
+      "unicode_decimal": 59170
+    },
+    {
+      "icon_id": "729524",
+      "name": "购物车",
+      "font_class": "gouwuche",
+      "unicode": "e64c",
+      "unicode_decimal": 58956
+    },
+    {
+      "icon_id": "992",
+      "name": "话费",
+      "font_class": "huafei",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "136905",
+      "name": "电影票iocn",
+      "font_class": "dianyingpiaoiocn",
+      "unicode": "e60e",
+      "unicode_decimal": 58894
+    },
+    {
+      "icon_id": "709058",
+      "name": "MaxSys-020",
+      "font_class": "icon",
+      "unicode": "e61d",
+      "unicode_decimal": 58909
+    },
+    {
+      "icon_id": "1263352",
+      "name": "机票",
+      "font_class": "jipiao",
+      "unicode": "e63b",
+      "unicode_decimal": 58939
+    },
+    {
+      "icon_id": "1284131",
+      "name": "火车票",
+      "font_class": "huochepiao",
+      "unicode": "e638",
+      "unicode_decimal": 58936
+    },
+    {
+      "icon_id": "1284182",
+      "name": "加油卡",
+      "font_class": "jiayouqia",
+      "unicode": "e63a",
+      "unicode_decimal": 58938
+    },
+    {
+      "icon_id": "2803733",
+      "name": "理财",
+      "font_class": "licai",
+      "unicode": "e6aa",
+      "unicode_decimal": 59050
+    },
+    {
+      "icon_id": "6460246",
+      "name": "白条闪付",
+      "font_class": "baitiaoshanfu",
+      "unicode": "e632",
+      "unicode_decimal": 58930
+    },
+    {
+      "icon_id": "8361851",
+      "name": "游戏",
+      "font_class": "youxi",
+      "unicode": "e6cf",
+      "unicode_decimal": 59087
+    },
+    {
+      "icon_id": "12476909",
+      "name": "礼品卡",
+      "font_class": "lipinka",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    },
+    {
+      "icon_id": "16322147",
+      "name": "酒店",
+      "font_class": "jiudian",
+      "unicode": "e6c3",
+      "unicode_decimal": 59075
+    },
+    {
+      "icon_id": "17214630",
+      "name": "图标_店主众筹-众筹票据",
+      "font_class": "tubiao_dianzhuzhongchou-zhongchoupiaoju",
+      "unicode": "e69c",
+      "unicode_decimal": 59036
+    },
+    {
+      "icon_id": "5387910",
+      "name": "箭头_列表向右_o",
+      "font_class": "jiantou_liebiaoxiangyou_o",
+      "unicode": "eb8a",
+      "unicode_decimal": 60298
+    },
+    {
+      "icon_id": "5387911",
+      "name": "箭头_列表展开_o",
+      "font_class": "jiantou_liebiaozhankai_o",
+      "unicode": "eb8b",
+      "unicode_decimal": 60299
+    }
+  ]
+}
